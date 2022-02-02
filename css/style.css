@@ -1,0 +1,80 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
+
+
+@font-face {
+	font-family: 'Caveat';
+	src: url('../fonts/CaveatBold.woff2') format('woff2'), url('../fonts/CaveatBold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+    font-family: 'Caveat';
+    src: url('../fonts/CaveatRegular.woff2') format('woff'), url('../fonts/CaveatRegular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body{
+	text-align: center;
+	font-family: 'Caveat', sans-serif;
+
+}
+h1{
+	font-family: 'Caveat', sans-serif;
+	font-size: 60px;
+	color: blueviolet;
+	
+}
+
+.text{
+	
+	/* font-family: 'Caveat', sans-serif; */
+	font-weight: 400 ;
+	font-style: italic;
+	font-size: 30px;
+}
+
+
+
+.discount{
+	text-transform: uppercase;
+	font-size: 40px;
+	letter-spacing: 5px;
+
+
+}
+.discount_span{
+	text-decoration: line-through;
+	color: red;
+	
+}
+
+.text-italik{
+	/* font-family: 'Caveat', sans-serif; */
+	font-size: 30px;
+	text-shadow: 1px 1px 1px #000;
+	
+}
+
+.uppercase{
+	text-decoration: line-through;
+	text-transform: capitalize;
+}
+
+footer{
+	color: rgb(48, 8, 85);
+	font-size: 50px;
+}
+
+.vverh{
+	color: rgb(48, 8, 85);
+	font-size: 50px;
+}
